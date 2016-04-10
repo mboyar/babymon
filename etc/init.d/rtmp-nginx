@@ -1,0 +1,15 @@
+#!/bin/sh
+
+case "$1" in
+start)
+        /usr/sbin/nginx
+        sleep 10
+        nohup /home/pi/rtmp-nginx.sh &
+	;;
+stop)
+       killall nginx
+       ;;
+*)
+       ;; 
+
+esac
