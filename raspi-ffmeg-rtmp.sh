@@ -1,4 +1,7 @@
 #!/bin/bash
+
+#ref: http://stuff.stevenreid.uk/2015/04/16/rtmp-streaming-using-raspivid-ffmpeg-and-nginx-on-raspbian/
+
  on_die () {
    # kill all children
    pkill -KILL -P $$
