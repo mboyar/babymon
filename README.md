@@ -1,5 +1,6 @@
 # babymon
 on raspberry pi, system will use avconv tool to convert video to stream and push to local network with nginx
+for details please visit: https://hackaday.io/project/9314-babymon
 
 # compilation guides
 nginx-rtmp: https://github.com/arut/nginx-rtmp-module
