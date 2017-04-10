@@ -1,5 +1,6 @@
 # babymon
-on raspberry pi, system will use avconv tool to convert video to stream and push to local network with nginx
+on raspberry pi, system will use avconv tool to convert video to stream and push to local network with nginx.
+
 for details please visit: https://hackaday.io/project/9314-babymon
 
 # compilation guides
@@ -13,6 +14,7 @@ nginx version: nginx/1.4.1
 built by gcc 4.9.2 (Raspbian 4.9.2-10) 
 TLS SNI support enabled
 configure arguments: --prefix=/var/www --sbin-path=/usr/sbin/nginx --conf-path=/etc/nginx/nginx.conf --pid-path=/var/run/nginx.pid --error-log-path=/var/log/nginx/error.log --http-log-path=/var/log/nginx/access.log --with-http_ssl_module --without-http_proxy_module --add-module=/usr/src/nginx-rtmp-module
+
 pi@raspberrypi ~ $ 
 
 pi@raspberrypi ~ $ ffmpeg --help | head -n 1
